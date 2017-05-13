@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Branislav Manojlovic</title>
+</head>
+<body>
+	<div id="okvir">
+		<div id="heder">
+			<div id="logo">
+				<img src="Slika1.jpg" width="185" height="185">
+			</div>
+			<div id="ime_prezime">
+				<h1>Branislav Manojlović</h1>
+			</div>
+			<a href="kontakt.html" class="button">SRB</a><a href="kontakt_eng.html" class="button">ENG</a>
+		</div>
+		<div id="navigacija">
+			<ul>
+				<li><a href="index_eng.html">Home</a></li>
+				<li><a href="#karijera_eng">Carrier</a></li>
+				<li><a href="#diplome_eng">Diplomas</a></li>
+				<li><a href="#projekti_eng">Projects</a></li>
+				<li><a href="kontakt_eng.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="leva_strana">
+			<h3>Links:</h3>
+			<ul>
+				<li><a href="https://github.com/BaneManojlovic">GitHub</a></li>
+				<li><a href="https://banetelekom.wordpress.com/">Blog</a></li>
+				<li><a href="https://www.linkedin.com/in/branislav-manojlovic-348699b8/">Linkendin</a></li>
+				<li><a href="http://manojlobaki.wixsite.com/banematerijali">Materijali</a></li>
+				<li><a href="https://manojlobaki.wixsite.com/sins">SINS</a></li>
+			</ul>
+		</div>
+		<div id="desna_strana">
+				<h2>Contact:</h2>
+				<p>If you want to contact me, you can do it by:</p>
+				<p>Telephone:<b> 062/17-112-15</b></p>
+				<p>email:<b> bane1manojlovic@gmail.com</b></p>
+				<p>email:<b> banemanojlovic@uns.ac.rs</b></p>
+				<p>Also, you can send me a message via the following form:</p>
+				<br/>
+				
+				<?php include("mail_forma.php"); ?>
+				<form action='mail_forma.php' method='POST'>
+					Name:<br/><input type='text' name='name'/><br/>
+					Email:<br/><input type='text' name='email'/><br/>
+					Message:<br/><textarea name='message' rows='5' cols='50'/></textarea><br/>
+					<input type='submit' name='submit'/>
+				</form>
+				
+		</div>
+		<div id="futer"><i>designed by: Baki IT &#169;</i>
+		</div>
+	</div>
+</body>
+</html>

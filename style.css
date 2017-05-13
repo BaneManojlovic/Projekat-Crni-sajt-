@@ -1,0 +1,213 @@
+
+body {
+	background: linear-gradient(#000000,  #434343);	
+}
+
+div#navigacija {
+	border: 2px solid #C0C0C0;
+	height: 35px;
+	margin: auto;
+	background: linear-gradient( #000000,  #434343);
+	border-radius: 20px 20px 20px 20px;
+}
+
+#navigacija ul{
+	list-style-type: none;
+	margin: auto;
+	overflow: hidden;
+}
+
+#navigacija ul li{
+	color: white;
+	width: 160px;
+	height: 34px;
+	text-align: center;
+	font-size: 22px;
+	float: left;
+}
+
+#navigacija ul li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+#navigacija ul li:hover{
+	/*background-color: #C0C0C0;*/
+	background: linear-gradient(#757f9a, #d7dde8 );
+	color: black;
+}
+
+#navigacija ul ul{
+	display: none;
+}
+
+#navigacija ul ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+#navigacija ul li a:hover{
+	color: black;
+	
+}
+/*
+#navigacija ul li:hover > ul{
+	margin-top: 5%;
+	background-color: red;
+	display: block;
+	position: absolute;
+}
+*/
+div#okvir {
+	height: 950px;
+	width: 900px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+div#ime_prezime {
+	margin-top: 5px;
+	margin-right: 15px;
+	color: #E8E8E8;
+	font-style: italic;
+	text-shadow: 3px 2px #000000;
+	text-align: center;
+	/*font-family:  Serif;*/
+	font-size: 35px;
+/*	border: 2px solid #C0C0C0;*/
+	float: right;
+	height:100px;
+	width: 680px;
+	
+}
+
+.button {
+    background-color: #E8E8E8;
+    border: none;
+	border-radius: 5px 5px 5px 5px;
+    color: black;
+	float: right;
+	margin-top: 72px;
+	margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button:hover{
+	background: black;
+	color: white;
+}
+
+div#heder { 
+	width: 100%; 
+	border: 2px solid #C0C0C0;
+	border-radius: 20px;
+	height:200px; 
+	background: url(pozadina.jpg) left top repeat;
+	margin: 0 auto 3px; 
+}
+
+
+div#logo {
+	border: 5px solid #C0C0C0;
+	box-shadow: 3px 3px 3px 0 #333;
+	margin-top: 2px;
+	margin-left: 2px;
+	height:185px;
+	width: 185px;
+	float: left;
+	background: #C0C0C0;
+	text-align: center;
+	font-size: 50px;
+	line-height: 200px;
+	border-radius: 20px;
+}
+
+div#logo img {
+	border-radius: 20px;
+}
+
+div#leva_strana {
+	border: 2px solid #C0C0C0;
+	border-radius: 20px;
+	background: url(pozadina.jpg) left top repeat;
+	margin-top: 3px;
+	float: left;
+	width: 200px;
+	height:300px;
+}
+
+div#leva_strana h3 {
+	text-align: center;
+	color: #E8E8E8;
+	font-size: 32px;
+	text-shadow: 3px 2px #000000;
+}
+
+div#leva_strana ul {
+	margin-top: -6px;
+	list-style-type: none;
+}
+
+div#leva_strana ul  li a{
+	color: white;
+	text-decoration: none;
+	font-size: 26px;
+	line-height: 1.3;
+}
+
+div#leva_strana ul li a:hover{
+	background: linear-gradient(#757f9a, #d7dde8 );
+	color: black;
+}
+
+div#desna_strana {
+	border: 2px solid #C0C0C0;
+	border-radius: 20px;
+	width: 688px;
+	margin: 3px auto;
+	height:650px;
+	background: url(creambrick.jpg) left top repeat;
+	float: right;
+}
+
+div#desna_strana h2 {
+	margin-top: 35px;
+	margin-bottom: 40px;
+	margin-left: 35px;
+/*	border: 2px solid red;*/
+}
+
+div#desna_strana p {
+	/*margin-top: 45px;*/
+	margin-left: 35px;
+	font-size: 20px;
+	line-height: 0.5;
+}
+
+div#desna_strana form {
+	margin-left: 35px;
+	margin-right: 35px;
+	border: 10px solid #CACACA;
+	background:#CACACA;
+}
+
+
+div#futer {
+	height: 24px;
+	width: 900px;
+	text-align: center;
+	background: linear-gradient( #000000,  #434343);
+	color: white;	
+	float: left;
+	border-radius: 20px 20px 20px 20px;
+	border: 2px solid #C0C0C0;
+}
+
+
+
