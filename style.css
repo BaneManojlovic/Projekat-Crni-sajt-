@@ -1,10 +1,14 @@
 
 body {
-	background: linear-gradient(#000000,  #434343);	
+	/*background: linear-gradient(#000000, #434343);*/
+	/*background: linear-gradient(#00001a,  #0000cc);*/
+	/*background: #0F1626;*/
+	background: linear-gradient(#000428, #004e92);
 }
 
 div#navigacija {
 	border: 2px solid #C0C0C0;
+	/*border: 2px solid #DCAE1D;*/
 	height: 35px;
 	margin: auto;
 	background: linear-gradient( #000000,  #434343);
@@ -33,7 +37,6 @@ div#navigacija {
 }
 
 #navigacija ul li:hover{
-	/*background-color: #C0C0C0;*/
 	background: linear-gradient(#757f9a, #d7dde8 );
 	color: black;
 }
@@ -75,7 +78,7 @@ div#ime_prezime {
 	text-shadow: 3px 2px #000000;
 	text-align: center;
 	/*font-family:  Serif;*/
-	font-size: 35px;
+	font-size: 31px;          /*Ovde je pre bila velicina 35 pa je ruzno bilo na telefonu*/
 /*	border: 2px solid #C0C0C0;*/
 	float: right;
 	height:100px;
@@ -114,14 +117,16 @@ div#heder {
 
 
 div#logo {
-	border: 5px solid #C0C0C0;
+	/*border: 5px solid #C0C0C0;*/
+	border: 5px solid #800000;
 	box-shadow: 3px 3px 3px 0 #333;
 	margin-top: 2px;
 	margin-left: 2px;
 	height:185px;
 	width: 185px;
 	float: left;
-	background: #C0C0C0;
+	/*background: #C0C0C0;*/
+	background: #800000;
 	text-align: center;
 	font-size: 50px;
 	line-height: 200px;
@@ -190,6 +195,12 @@ div#desna_strana p {
 	line-height: 0.5;
 }
 
+div#tekst p {
+	font-size: 20px;
+	line-height: 1;
+	margin-right: 20px;
+}
+
 div#desna_strana form {
 	margin-left: 35px;
 	margin-right: 35px;
@@ -208,6 +219,5 @@ div#futer {
 	border-radius: 20px 20px 20px 20px;
 	border: 2px solid #C0C0C0;
 }
-
 
 
